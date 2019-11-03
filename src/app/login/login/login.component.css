@@ -11,8 +11,9 @@ form {
 
 .logo {
     height: 140px;
-    margin-top: 1%;
+    margin-top: 50px;
 }
+
 div.input{
     margin-top: 20px;
 }
@@ -26,6 +27,11 @@ button{
     width: 100%;
 }
 
+ul.register{
+    margin-bottom: 55px;
+
+}
+
 #login-box {
     padding: 50px;
     padding-top: 20px;
@@ -33,7 +39,7 @@ button{
     border: 1px solid #9C9C9C;
     background-color: #dddddd;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .label,

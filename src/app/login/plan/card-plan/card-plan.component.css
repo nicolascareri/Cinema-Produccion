@@ -10,11 +10,13 @@ button {
 
 .first {
     margin-top: 45px;
+    margin-bottom: 25px;
 }
 
 .seg {
     margin-top: 37px;
     color: black;
+    margin-bottom: 25px;
 }
 
 .cardd {
@@ -22,6 +24,15 @@ button {
     height: 347.35px;
     background: #DDDDDD;
     color: black;
+    margin-bottom: 90px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .cardd{
+        padding: 5px;
+        margin-bottom: 45px;
+    }
 }
 
 .titulo {

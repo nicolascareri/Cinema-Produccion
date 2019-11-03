@@ -4,6 +4,11 @@
 
 .row {
     margin: 0;
+    border-bottom: 0 !important;
+}
+
+div.row.line{
+    margin-top: 0px;
 }
 
 img {
@@ -22,6 +27,21 @@ a{
     margin-top: 20px;
 }
 
-.p {
+p {
     margin: 0 7px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .linea1{
+        margin: 5px;
+        top:20px;
+    }
+    .linea2 {
+        margin: 5px;
+        top:25px;
+    }
+    .icon{
+        top:10px;
+    }
 }

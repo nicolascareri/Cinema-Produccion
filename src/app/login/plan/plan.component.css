@@ -21,13 +21,6 @@
     margin: 0 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    .cards{
-        padding-top: 0px;
-        padding: 10px;
-    }
-}
-
 .circle{
     position: absolute;
     left: 77px;
@@ -35,6 +28,6 @@
 }
 .breadcumb{
     position: absolute;
-    top: 225px;
+    top: 210px;
 }
 
